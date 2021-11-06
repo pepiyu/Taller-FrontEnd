@@ -1,9 +1,9 @@
 {
     "app": {
-        "title": "Welcome to my Portfolio Webpage"
+        "title": "Web Designer Yessica Bao"
     },
     "landing": {
-        "title": "Welcome to my Portfolio"
+        "title": "Web Designer Yessica Bao"
     },
     "loader" : {
         "text": "loading..."
@@ -16,10 +16,20 @@
         "button_login": "Log in",
         "login_title": "Login Panel"
     },
+    "project": {
+        "title_placeholder": "Title",
+        "description_placeholder": "Descripcion",
+        "tag_placeholder": "Tag",
+        "version_placeholder": "Version",
+        "button_post": "Post",
+        "button_delete": "Delete",
+        "project_title": "Project Input"
+    },
     "nav": {
         "home": "Home",
         "dashboard": "Dashboard",
-        "admin": "Admin"
+        "admin": "Admin",
+        "project": "Project"
     },
     "aboutMeCard": {
         "name": "Name",

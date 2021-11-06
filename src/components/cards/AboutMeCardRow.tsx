@@ -8,12 +8,17 @@ interface AboutMeCardRowProps {
   value: string | number;
 }
 
+const expression = /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/gi
+const regex = new RegExp(expression);
+
 const AboutMeCardRow = (props: AboutMeCardRowProps) => {
 
-    const formatDate = (value: string | number): string => {
+    const formatDate = (value: string | number): any => {
       if(typeof value === "number") {
         let date = new Date(value);
         return date.toLocaleDateString();
+      } else if (value.match(regex)) {
+        return <a href={value}>{value}</a>;
       } else {
         return value;
       }

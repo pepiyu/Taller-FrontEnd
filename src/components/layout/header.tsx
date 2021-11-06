@@ -15,6 +15,10 @@ export const menuData = [
     link: "/dashboard",
   },
   {
+    title: "nav.project",
+    link: "/project",
+  },
+  {
     title: "nav.admin",
     link: "/admin",
   },
@@ -64,7 +68,7 @@ interface MenuWrapperProps {
 }
 
 const LinkButton = styled.p`
-  color: ${themes.dark.text1};
+  color: ${themes.light.text1};
 `;
 
 const MenuWrapper = styled.div<MenuWrapperProps>`

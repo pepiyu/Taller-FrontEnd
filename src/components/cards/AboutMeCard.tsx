@@ -5,7 +5,7 @@ import { AboutMe } from "../../model/aboutme";
 import { themes } from "../../styles/ColorStyles";
 import AboutMeCardRow from "./AboutMeCardRow";
 
-import avatarCard from "./Avatar.jpg";
+import avatarCard from "./AvatarY.jpg";
 
 interface AboutMeCardProps {
   aboutMe: AboutMe;

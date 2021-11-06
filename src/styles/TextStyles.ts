@@ -2,15 +2,15 @@ import styled from "styled-components"
 
 export const H1 = styled.h1`
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
   @media (max-width: 450px) {
-    font-size: 48px;
+    font-size: 18px;
   }
 `
 
 export const H2 = styled.h2`
   font-weight: bold;
-  font-size: 32px;
+  font-size: 26px;
   @media (max-width: 450px) {
     font-size: 24px;
   }

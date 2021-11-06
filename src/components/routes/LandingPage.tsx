@@ -65,7 +65,7 @@ const ContentWrapper = styled.div`
 const Title = styled(H1)`
   margin-top: 80px;
   font-size: 70px;
-  color: ${themes.dark.text1};
+  color: ${themes.light.text1};
   text-align: center;
 
   @media (max-width: 830px) {

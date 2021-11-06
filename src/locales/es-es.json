@@ -1,9 +1,9 @@
 {
     "app": {
-        "title": "Bienvenid@s a mi Web Portfolio"
+        "title": "Yessica Bao Diseño Web"
     },
     "landing": {
-        "title": "Bienvenido a mi Portfolio"
+        "title": "Yessica Bao Diseño Web"
     },
     "loader" : {
         "text": "cargando..."
@@ -16,10 +16,21 @@
         "button_login": "Entrar",
         "login_title": "Panel de Acceso"
     },
+    "project": {
+        "title_placeholder": "Título",
+        "description_placeholder": "Descripción",
+        "tag_placeholder": "Etiqueta",
+        "version_placeholder": "Versión",
+        "button_post": "Postear",
+        "button_delete": "Eliminar",
+        "project_title": "Proyect Input"
+    },
     "nav": {
         "home": "Inicio",
         "dashboard": "Dashboard",
-        "admin": "Admin"
+        "admin": "Admin",
+        "project": "Proyecto"
+
     },
     "aboutMeCard": {
         "name": "Nombre",
