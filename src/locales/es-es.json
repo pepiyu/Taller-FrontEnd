@@ -17,11 +17,13 @@
         "login_title": "Panel de Acceso"
     },
     "project": {
+        "err_titl_descrip": "Título y descripción no pueden estar vacíos",
         "title_placeholder": "Título",
         "description_placeholder": "Descripción",
         "tag_placeholder": "Etiqueta",
         "version_placeholder": "Versión",
         "button_post": "Postear",
+        "button_back": "Volver",
         "button_delete": "Eliminar",
         "project_title": "Proyect Input"
     },

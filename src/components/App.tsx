@@ -17,6 +17,7 @@ import Project from "./routes/Project";
 const App = () => {
   
   // TODO: Change redirect to Dashboard
+
   return (
     <Router>
       <Layout>
@@ -45,3 +46,7 @@ const App = () => {
 };
 
 export default App;
+function setState(arg0: { value: string; }) {
+  throw new Error("Function not implemented.");
+}
+

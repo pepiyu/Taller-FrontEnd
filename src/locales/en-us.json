@@ -17,11 +17,13 @@
         "login_title": "Login Panel"
     },
     "project": {
+        "err_titl_descrip": "Title and description must not be null",
         "title_placeholder": "Title",
         "description_placeholder": "Descripcion",
         "tag_placeholder": "Tag",
         "version_placeholder": "Version",
         "button_post": "Post",
+        "button_back": "Back",
         "button_delete": "Delete",
         "project_title": "Project Input"
     },
